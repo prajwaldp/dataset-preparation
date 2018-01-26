@@ -22,4 +22,4 @@ if not os.path.isfile(src_path):
     sys.exit()
 
 
-print(dataset_preparation.prepare(src_path))
+dataset_preparation.prepare(src_path, dest_path)
